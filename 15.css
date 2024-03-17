@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(84, 187, 147);
+  }
+  
+  .card {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 500px; /* Maximum width */
+    height: auto; /* Adjusted height */
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(206, 12, 12, 0.1);
+    padding: 50px;
+    color: #000000;
+    background-color: #f9f9f9;
+    margin-left: 100px;
+  }
+  
+  #Joke {
+    font-size: large;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #Refresh {
+    background-color: #cefd11;
+    color: #262725;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 50px; /* Adjusted margin */
+    width: 100%; /* Full width */
+  }
+  
+  #Refresh:hover {
+    background-color: #649edb;
+  }
+  
